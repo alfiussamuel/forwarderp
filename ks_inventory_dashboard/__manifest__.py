@@ -74,7 +74,7 @@
         Warehouse Tracker Apps
     """,
 
-    'author': "Ksolves India Pvt. Ltd.",
+    'author': "Business Solution Consulting",
     'license': 'OPL-1',
     'currency': 'EUR',
     'price': 0.0,

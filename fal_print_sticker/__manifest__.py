@@ -1,7 +1,7 @@
 {
     "name": "Print Sticker",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Warehouse',
     'summary': 'Module to print sticker on inventory.',
     'website': 'https://falinwa.com',

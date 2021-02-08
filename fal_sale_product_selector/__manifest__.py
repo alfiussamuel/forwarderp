@@ -3,7 +3,7 @@
 {
     'name': 'Sale Product Attribute',
     'version': "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'description': '''
         * Inject it on Sale Object
 

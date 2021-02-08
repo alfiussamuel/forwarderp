@@ -4,7 +4,7 @@
 {
     'name': 'China - Fapiao for Enterprise',
     'version': '12.4.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://www.falinwa.com',
     'category': 'Accounting & Finance',
     'summary': 'Move Fapiao menu correctly.',

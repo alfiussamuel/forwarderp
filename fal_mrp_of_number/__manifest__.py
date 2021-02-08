@@ -2,7 +2,7 @@
 {
     'name': 'MRP Stock PO Number',
     'version': '12.2.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'summary': 'PO number on stock move',
     'website': 'https://falinwa.com',
     'description': '''

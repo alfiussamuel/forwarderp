@@ -2,7 +2,7 @@
 {
     "name": "Advanced LoT/SN Management",
     'version': '12.2.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Warehouse',
     'summary': 'Give a more advanced method of LoT management ',

@@ -1,7 +1,7 @@
 {
     "name": "Picking Menu Extension",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Warehouse',
     'summary': 'Module to add additional picking menu in warehouse module',
     'website': 'https://falinwa.com',

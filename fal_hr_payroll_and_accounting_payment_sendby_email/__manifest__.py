@@ -7,7 +7,7 @@
     'description': '''
         Module to add button SendbyEmail in Employee Payslip , and button SendbyEmail in Accounting Payment
     ''',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'http://www.falinwa.com',
     'depends': [
         'hr_payroll','mail'

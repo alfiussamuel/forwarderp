@@ -10,7 +10,7 @@
         Changelog:
         12.4.0.0.0 - Initial Release
     ''',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'http://www.falinwa.com',
     'depends': [
         'hr_payroll',

@@ -4,7 +4,7 @@
 {
     "name": "Fal Partner Credit Limit",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Sales',
     'summary': 'Partner Credit Limit',

@@ -4,7 +4,7 @@
 {
     "name": "Invoice List on Sale and Purchase",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Accounting & Finance',
     'summary': 'List Invoice in Sale and Purchase',

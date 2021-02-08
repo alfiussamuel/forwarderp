@@ -4,7 +4,7 @@
 {
     'name': 'China - Accounting',
     'version': '12.4.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://www.falinwa.com',
     'category': 'Localization',
     'summary': 'Manage the accounting chart (with hierarchy) for China',

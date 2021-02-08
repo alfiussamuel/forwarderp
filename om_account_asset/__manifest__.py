@@ -3,7 +3,7 @@
 
 {
     'name': 'Odoo 12 Assets Management',
-    'author': 'Odoo SA, Odoo Mates',
+    'author': 'Business Solution Consulting',
     'depends': ['account'],
     'description': """Manage assets owned by a company or a person. 
     Keeps track of depreciations, and creates corresponding journal entries""",

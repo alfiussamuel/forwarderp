@@ -3,7 +3,7 @@
 {
     'name': 'MRP Enhancement',
     'version': '12.2.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Manufacturing',
     'summary': 'This module add MRP functionality',
     'website': 'https://falinwa.com',

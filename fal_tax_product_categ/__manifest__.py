@@ -1,7 +1,7 @@
 {
     "name": "Tax Product Category",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Accounting & Finance',
     'summary': 'Tax on product category',
     'website': 'https://falinwa.com',

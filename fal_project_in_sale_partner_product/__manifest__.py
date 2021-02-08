@@ -3,7 +3,7 @@
 {
     'name': 'Analytic Account in Sale Partner Product',
     'version': '12.2.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'summary': """
         module to add Analytic account from partner or product.""",
     'website': "https://falinwa.com",

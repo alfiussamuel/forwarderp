@@ -3,7 +3,7 @@
     'name': "Payment Acquirer: Doku Implementation",
     'version': '12.1.0.0.0',
     'category': 'Accounting',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'sequence': 0,
     'summary': 'Payment Acquirer: Doku Implementation',
     'depends': [

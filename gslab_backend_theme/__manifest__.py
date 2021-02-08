@@ -5,7 +5,7 @@
     "version": "12.0.1.1.0",
     "category": "Themes/Backend",
     "website": "https://www.gslab.it",
-    "author": "Giovanni - GSLab",
+    "author": "Business Solution Consulting",
     "live_test_url": "http://odoo.gslab.it:8069",
     "price": "49",
     "currency": "EUR",

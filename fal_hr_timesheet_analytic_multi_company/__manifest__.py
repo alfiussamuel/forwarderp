@@ -4,7 +4,7 @@
 {
     "name": "Hr Timesheet Analytic Multi-Company",
     "version": "12.4.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Human Resources',
     'summary': 'Enable Multi-Company on Timesheet',

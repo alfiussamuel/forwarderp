@@ -3,7 +3,7 @@
 {
     'name': 'Sales Subscription: title, attachment,',
     'version': '12.0.1.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Sales',
     'summary': 'Additional field on Sale Subscription',

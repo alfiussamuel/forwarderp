@@ -10,7 +10,7 @@
     'category': 'Accounting & Finance',
     'summary': 'Allows to maintain an exchange rate using the inversion '
                'method',
-    'author': 'Eficent,Odoo Community Association (OCA)',
+    'author': 'Business Solution Consulting',
     'website': 'https://github.com/OCA/currency',
     'license': 'AGPL-3',
     'depends': [

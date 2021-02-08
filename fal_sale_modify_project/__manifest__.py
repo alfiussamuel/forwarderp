@@ -3,7 +3,7 @@
 {
     "name": "Sale Modify Analytic Account",
     "version": "12.0.1.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'summary': """
         Module to modify analytic account on sales.""",
     "description": """

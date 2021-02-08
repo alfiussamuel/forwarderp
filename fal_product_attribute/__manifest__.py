@@ -3,7 +3,7 @@
 {
     'name': 'Product Attribute',
     'version': "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'description': '''
         * Main Idea : In case of there is too many product (even if it's template). So to help that, there is a attribute you can select and then system will suggest you the product.
         * Plus the attribute you select will become the reference of that sale order line.

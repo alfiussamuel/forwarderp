@@ -1,7 +1,7 @@
 {
     "name": "Sale Production Order Number",
     "version": "12.5.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Sales',
     'summary': 'Sale Production Order Number extension',
     'website': 'https://falinwa.com',

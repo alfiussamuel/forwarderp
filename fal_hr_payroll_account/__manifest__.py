@@ -1,7 +1,7 @@
 {
     "name": "Payroll Accounting Enhancement",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'sequence': 50,
     'category': 'Human Resources',
     'summary': 'This module add HR Payroll functionality',

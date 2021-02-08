@@ -1,7 +1,7 @@
 {
     "name": "Product Detailed Specification",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Product',
     'summary': 'Add details in product.',
     'website': 'https://falinwa.com',

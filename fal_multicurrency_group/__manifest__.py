@@ -4,7 +4,7 @@
 {
     "name": "MultiCurrency Group Company",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Accounting and Finance',
     'summary': 'MultiCurrency Group',

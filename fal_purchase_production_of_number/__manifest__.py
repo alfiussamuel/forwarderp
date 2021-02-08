@@ -1,7 +1,7 @@
 {
     "name": "Purchase Production Order Number",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Purchase Management',
     'summary': 'Purchase Production order Number extension',
     'website': 'https://falinwa.com',

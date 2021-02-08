@@ -1,7 +1,7 @@
 {
     "name": "Sale Target Price",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Sales',
     'summary': 'Module to add target price on sales',
     'website': 'https://falinwa.com',

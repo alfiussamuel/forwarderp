@@ -2,7 +2,7 @@
 {
     'name': 'Controlling Dashboard',
     'version': '12.3.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Accounting & Finance',
     'website': 'https://falinwa.com',
     'description': """

@@ -2,7 +2,7 @@
     'name': 'Fal Quality Alert 5Y',
     'version': '12.2.0.0.0',
     'summary': '5 Why on Quality Alert',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'description': '''
         5 Why on Quality Alert.
     ''',

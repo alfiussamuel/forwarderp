@@ -4,7 +4,7 @@
 {
     "name": "Delivery List on Invoice",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Accounting & Finance',
     'summary': 'List Delivery in Invoice',

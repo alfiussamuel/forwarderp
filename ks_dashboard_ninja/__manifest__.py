@@ -42,7 +42,7 @@
         ksolves india pvt. ltd.
     """,
 
-    'author': "Ksolves India Pvt. Ltd.",
+    'author': "Business Solution Consulting",
     'license': 'OPL-1',
     'currency': 'EUR',
     'price': 199.0,

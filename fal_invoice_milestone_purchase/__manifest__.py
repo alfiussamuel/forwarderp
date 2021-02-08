@@ -4,7 +4,7 @@
 {
     "name": "Invoice Milestone Purchase",
     "version": "12.3.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Invoicing Management',
     'summary': 'Split Invoice in Purchase Order',

@@ -5,7 +5,7 @@
     'name': 'Falinwa Activity Widget',
     'version': '12.0',
     'category': 'Base',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://www.falinwa.com',
     'summary': 'Ir Model to inherit Activity',
     'description': """

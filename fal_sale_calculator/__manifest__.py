@@ -2,7 +2,7 @@
 {
     "name": "Fal Sale Calculator",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Sale',
     'summary': 'Calculate sales order line price for selected product attribute values.',
     'website': 'https://falinwa.com',

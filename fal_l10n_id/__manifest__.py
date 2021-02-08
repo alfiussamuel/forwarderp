@@ -11,7 +11,7 @@
     =================================================================================================
     - standard Indonesian chart of accounts
     """,
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'depends': ['account', 'fal_parent_account'],
     'data': [

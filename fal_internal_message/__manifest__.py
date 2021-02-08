@@ -2,7 +2,7 @@
 {
     'name': "Internal Message",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://www.falinwa.com',
     'category': 'Hidden',
     'summary': "Provide internal message feature",

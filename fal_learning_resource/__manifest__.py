@@ -4,7 +4,7 @@
 {
     'name': 'Learning Resource',
     'version': '12.4.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'description': '''
         Module to add Learning Resource
     ''',

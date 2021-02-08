@@ -2,7 +2,7 @@
 {
     "name": "MRP Planning Availability",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     "description": """
     Module to check availablity for manufacture
     based on floating production date planning.

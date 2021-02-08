@@ -2,7 +2,7 @@
 
 {
     'name': 'Quotation Revision',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'version': '12.6.0.0.0',
     'category': 'Sales',
     'summary': 'Revised Quotation History',

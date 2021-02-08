@@ -12,7 +12,7 @@
     'category': 'Tools',
     'summary': 'odoo Apps will Export excel view for all application like: Sale, Purchase, Invoice, Picking, Hr, Project, MRP and New Custom Application',
     "depends" : ['sale','purchase','sale_stock'],
-    'author': 'DevIntelle Consulting Service Pvt.Ltd',
+    'author': 'Business Solution Consulting',
     'website': 'http://www.devintellecs.com/',
     'images': ['images/main_screenshot.png'],
     "description": """

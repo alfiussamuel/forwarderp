@@ -1,7 +1,7 @@
 {
     "name": "Quality Print Sticker",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Manufacturing',
     'summary': 'Module to print sticker on quality.',
     'website': 'https://falinwa.com',

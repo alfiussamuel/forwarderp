@@ -10,7 +10,7 @@
         CHANGE LOG:
         1. 12.0.1.0.0 -- Development
     """,
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'depends': [
         'hr_holidays',

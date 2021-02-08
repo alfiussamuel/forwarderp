@@ -5,7 +5,7 @@
 		"base",
 		"contacts"
 	],
-	"author": "vitraining.com",
+	"author": "Business Solution Consulting",
 	"category": "Sales",
 	'website': 'http://www.vitraining.com',
 	"description": """\

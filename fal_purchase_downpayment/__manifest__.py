@@ -2,7 +2,7 @@
 {
     'name': 'Downpayment Purchase',
     'version': '12.1.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Purchases',
     'summary': 'Purchase DownPayment',

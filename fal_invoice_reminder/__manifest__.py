@@ -3,7 +3,7 @@
 {
     "name": "REP-03_Invoice Reminder",
     "version": "12.4.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     "description": """
     Module to reminder the invoice due date

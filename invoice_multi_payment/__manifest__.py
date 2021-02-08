@@ -5,7 +5,7 @@
     'version': '12.0.1.3',
     'category': 'account',
     'sequence': 50,
-    'author': 'ERP Labz',
+    'author': 'Business Solution Consulting',
     'website': "http://erplabz.com",
     
     'summary': 'Pay multiple invoice using payment screen with any user defined amount same like v7,8',

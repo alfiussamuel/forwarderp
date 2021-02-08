@@ -3,7 +3,7 @@
 {
     "name": "Purchase Order Sheet on Invoice",
     "version": "12.0.1.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'summary': """
         Module to add purchase order sheet on Invoice form.""",
     "description": """

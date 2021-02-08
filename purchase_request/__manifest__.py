@@ -3,8 +3,7 @@
 
 {
     "name": "Purchase Request",
-    "author": "Eficent, "
-              "Odoo Community Association (OCA)",
+    "author": "Business Solution Consulting",
     "version": "12.0.4.0.0",
     "summary": "Use this module to have notification of requirements of "
                "materials and/or external services and keep track of such "

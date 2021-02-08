@@ -1,7 +1,7 @@
 {
     "name": "Partner Quote",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Partner Management',
     'summary': 'This module extends base module',
     'website': 'https://falinwa.com',

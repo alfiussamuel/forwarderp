@@ -2,7 +2,7 @@
 {
     'name': "Internal Email",
     "version": "12.5.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://www.falinwa.com',
     'category': 'Hidden',
     'summary': "Provide a block email for internal only",

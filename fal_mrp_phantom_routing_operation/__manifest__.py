@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Phantom Routing Operation",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'version': '12.1.0.0.0',
     'summary': 'Phantom Routing Operation',

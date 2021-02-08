@@ -3,7 +3,7 @@
 {
     "name": "Generate Payroll",
     "version": "12.4.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     "description": """
     Module to developed Odoo payroll based on Falinwa standard.
     """,

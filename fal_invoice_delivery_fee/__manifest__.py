@@ -1,7 +1,7 @@
 {
     "name": "Invoice Delivery Fee",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Sale, Purchase & Invoicing',
     'summary': 'Module to add delivery fees on invoice.',
     'website': 'https://falinwa.com',

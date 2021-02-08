@@ -2,7 +2,7 @@
 {
     'name': 'Product Enhancement',
     'version': '12.4.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Warehouse',
     'summary': 'Product Enhancement',

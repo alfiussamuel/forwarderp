@@ -4,7 +4,7 @@
 {
     "name": "Partner Additional Info",
     "version": "12.4.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     'category': 'Partner Management',
     'summary': 'Partner Additional Info',

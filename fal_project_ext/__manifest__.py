@@ -3,7 +3,7 @@
 {
     "name": "PJC-02_Project Extension",
     "version": "12.4.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'https://falinwa.com',
     "description": """
      Project for final customer Level1:

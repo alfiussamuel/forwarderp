@@ -2,7 +2,7 @@
 {
     'name': 'Fal Quality',
     'version': '12.1.0.0.0',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     "category": 'Manufacturing',
     'website': 'https://falinwa.com',
     'description': '''

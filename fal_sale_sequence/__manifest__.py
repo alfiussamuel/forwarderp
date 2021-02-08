@@ -1,7 +1,7 @@
 {
     "name": "Sale Sequence",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Sale',
     'summary': 'Add Quotation sequence',
     'website': 'https://falinwa.com',

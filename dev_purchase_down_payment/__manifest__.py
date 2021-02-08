@@ -59,7 +59,7 @@ Odoo purchase down payment
     'auto_install': False,
     
     # author and support Details =============#
-    'author': 'DevIntelle Consulting Service Pvt.Ltd',
+    'author': 'Business Solution Consulting',
     'website': 'http://www.devintellecs.com',    
     'maintainer': 'DevIntelle Consulting Service Pvt.Ltd', 
     'support': 'devintelle@gmail.com',

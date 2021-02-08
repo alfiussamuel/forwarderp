@@ -2,7 +2,7 @@
 {
     'name': 'Credit Limit Validation for Customer',
     'category': 'Custom',
-    'author' :'Alfius Samuel Sutopo',
+    'author' :'Business Solution Consulting',
     'depends' : [
                  'base',
                  'sale',

@@ -8,7 +8,7 @@
     'description': '''
         Add wizard to finish workorder and manufacture order.
     ''',
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'website': 'http://falinwa.com',
     'depends': ['mrp_workorder'],
     'category': 'Manufacturing',

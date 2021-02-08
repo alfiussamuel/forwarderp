@@ -29,7 +29,7 @@
     'summary': """
 The new configurable Odoo Web Login Screen
 """,
-    'author': "binhnguyenxuan (www.xubi.me)",
+    'author': "Business Solution Consulting",
     'website': 'http://www.xubi.me',
     'license': 'AGPL-3',
     'depends': [

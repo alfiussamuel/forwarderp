@@ -1,7 +1,7 @@
 {
     "name": "Serial Number Sticker",
     "version": "12.1.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Stock',
     'summary': 'Module to print serial number sticker',
     'website': 'https://falinwa.com',

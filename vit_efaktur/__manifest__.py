@@ -7,7 +7,7 @@
 		"vit_kelurahan",
 	],
 	'images': ['static/description/images/main_screenshot.png'],
-	"author": "vitraining.com",
+	"author": "Business Solution Consulting",
 	"website": "www.vitraining.com", 
     'category': 'Accounting',
     'price':'30',

@@ -1,7 +1,7 @@
 {
     "name": "Purchase Approval",
     "version": "12.2.0.0.0",
-    'author': 'Falinwa Limited',
+    'author': 'Business Solution Consulting',
     'category': 'Purchase',
     'summary': 'Purchase Approval',
     'website': 'https://falinwa.com',

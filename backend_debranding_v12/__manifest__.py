@@ -3,7 +3,7 @@
 {
     'name': "Debranding Kit",
     'version': '12.0.0',
-    'author': 'Planet-Odoo',
+    'author': 'Business Solution Consulting',
     "support": "http://www.planet-odoo.com/",
     'category': 'Tools',
     'depends': [
