@@ -4,7 +4,7 @@
     "summary": "Auto format decimal separator when user typing",
     "category": "Web",
     "depends": ["web"],
-    "author": "Trình Gia Lạc",
+    "author": "Business Solution Consulting",
     "website": "https://trinhgialac.com",
     "data": [
         "views/web_format_number.xml",
