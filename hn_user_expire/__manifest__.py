@@ -6,7 +6,7 @@
     'summary': 'Allow to set account expiration date for users',
     'version': '13.0.1.0.0',
     'category': 'Tools',
-    'author': 'Hipernike, S.A.',
+    'author': 'Business Solution Consulting',
     'support': 'info@hipernike.com',
     'license': 'AGPL-3',
     'website': 'http://hipernike.com',
