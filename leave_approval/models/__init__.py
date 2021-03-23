@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-import leave_approval
+from . import leave_approval
