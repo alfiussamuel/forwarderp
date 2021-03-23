@@ -27,14 +27,14 @@ class Example(http.Controller):
 
 	@http.route('/approvalmail', type='http', auth='public', website=True,  csrf=False)
 	def action_approve(self, *args, **post):
-		print post,'posttttttttttt'
+		# print post,'posttttttttttt'
 		holiday_id = int(post.get('hr_holidays'))
 		
 		holiday_obj= http.request.env['hr.holidays'].sudo().search([('id', '=', holiday_id)])
 
 		
 		if holiday_obj:
-			print '=======',
+			# print '=======',
 			if holiday_obj.holiday_status_id.double_validation == True:
 				
 				if holiday_obj.state == 'confirm':
@@ -43,7 +43,7 @@ class Example(http.Controller):
 					  }
 					holiday_obj.action_approve()
 					template_id = request.env.ref('leave_approval.leave_validation_mail')
-					print '=====',template_id,holiday_id
+					# print '=====',template_id,holiday_id
 					template_id.send_mail(holiday_id, force_send=True)
 					return http.request.render('leave_approval.submit')
 				
@@ -64,7 +64,7 @@ class Example(http.Controller):
 					  }
 					holiday_obj.action_approve()
 					template_id = request.env.ref('leave_approval.leave_approval_mail')
-					print '=====',template_id,holiday_id
+					# print '=====',template_id,holiday_id
 					template_id.send_mail(holiday_id, force_send=True)
 					return http.request.render('leave_approval.submit')
 
@@ -82,14 +82,14 @@ class Example(http.Controller):
 
 	@http.route('/approvalvalidationmail', type='http', auth='public', website=True,  csrf=False)
 	def action_validate(self, *args, **post):
-		print post,'posttttttttttt'
+		# print post,'posttttttttttt'
 		holiday_id = int(post.get('hr_holidays'))
 		holiday_obj= http.request.env['hr.holidays'].sudo().search([('id', '=', holiday_id)])
 
 		if holiday_obj:
-			print '23333333333',
+			# print '23333333333',
 			if holiday_obj.holiday_status_id.double_validation == True:
-				print '******',holiday_obj.state
+				# print '******',holiday_obj.state
 				if holiday_obj.state =='validate1':
 					
 					holiday_obj.action_validate()
@@ -107,14 +107,14 @@ class Example(http.Controller):
 
 	@http.route('/refusemail', type='http', auth='public', website=True,  csrf=False)
 	def action_refuse(self, *args, **post):
-		print 'oooooooooooooooooo',post
+		# print 'oooooooooooooooooo',post
 		holiday_id = int(post['hr_holiday'])
-		print '&&&&&&&&&&',holiday_id
+		# print '&&&&&&&&&&',holiday_id
 		holiday_obj= http.request.env['hr.holidays'].sudo().search([('id', '=', holiday_id)])
-		print('dddddddddddddd',holiday_obj)
+		# print('dddddddddddddd',holiday_obj)
 		if holiday_obj:
 			if holiday_obj.holiday_status_id.double_validation == True:
-				print '******',holiday_obj.state
+				# print '******',holiday_obj.state
 				if holiday_obj.state in ('confirm','validate1'):
 					
 					holiday_obj.action_refuse()

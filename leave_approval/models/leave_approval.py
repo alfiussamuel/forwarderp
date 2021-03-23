@@ -15,11 +15,11 @@ class res_partner(models.Model):
 		for order in self:
 			if order.date_to:
 				date_to = datetime.strptime(order.date_to, "%Y-%m-%d %H:%M:%S")
-				print"date_todate_todate_to",date_to
+				# print"date_todate_todate_to",date_to
 				return_date = date_to + timedelta(days=1)
-				print"return_datereturn_date",return_date
+				# print"return_datereturn_date",return_date
 				order.return_date = return_date.date()
-				print"order.return_date",order.return_date
+				# print"order.return_date",order.return_date
 
 	state = fields.Selection([
 		('draft', 'To Submit'),
