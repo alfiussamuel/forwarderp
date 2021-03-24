@@ -53,7 +53,7 @@ class SaleOrder(models.Model):
                 unpaid_invoice_amount += inv.residual
                 print ("Invoice amount ", unpaid_invoice_amount)
 
-        if (unpaid_invoice_amount + vals.get('amount_total')) > partner.credit_limit and partner.credit_limit > 0:
+        if unpaid_invoice_amount > partner.credit_limit and partner.credit_limit > 0:
             raise UserError(_('Credit Limit for this Customer reached the Limit'))
         else:
             result = super(SaleOrder, self).create(vals)
