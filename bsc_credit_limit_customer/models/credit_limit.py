@@ -45,10 +45,13 @@ class SaleOrder(models.Model):
             ('state','=','open'),
             ])
 
+        print ("Invoice IDS ", invoice_ids)
+
         unpaid_invoice_amount = 0
         if invoice_ids:
             for inv in invoice_ids:
                 unpaid_invoice_amount += inv.residual
+                print ("Invoice amount ", unpaid_invoice_amount)
 
         if unpaid_invoice_amount > partner.credit_limit and partner.credit_limit > 0:
             raise UserError(_('Credit Limit for this Customer reached the Limit'))
