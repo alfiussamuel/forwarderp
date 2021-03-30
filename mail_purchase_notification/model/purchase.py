@@ -17,11 +17,8 @@ class PurchaseOrder(models.Model):
     _inherit = "purchase.order"
 
     def create(self, vals):
-        print ("Not Yet ")
         result = super(PurchaseOrder, self).create(vals)
-        print ("Result ", result)
         if result:
-            print ("If Result")
             mail_id = ''
             mail_to = "samuel.alfius@gmail.com"
             tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
