@@ -16,8 +16,9 @@ from collections import defaultdict
 class PurchaseOrder(models.Model):
     _inherit = "purchase.order"
 
+    @api.model
     def create(self, vals):
-        result = super(PurchaseOrder, self).create(vals)
+        result = super().create(vals)
         if result:
             mail_id = ''
             mail_to = "samuel.alfius@gmail.com"
@@ -32,4 +33,3 @@ class PurchaseOrder(models.Model):
             else:
                 raise Warning('Email Template Not Found')
 
-        return True
