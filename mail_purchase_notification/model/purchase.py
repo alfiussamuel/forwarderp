@@ -19,6 +19,7 @@ class PurchaseOrder(models.Model):
     @api.multi
     def button_submit(self):
         for res in self:
+            print ("Not Yet ")
             result = super(PurchaseOrder, self).button_submit()
             print ("Result ", result)
             if result:
