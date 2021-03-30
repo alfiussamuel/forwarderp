@@ -18,22 +18,30 @@ class PurchaseOrder(models.Model):
 
     @api.model
     def create(self, vals):
-        result = super().create(vals)
-        if result:
-            print ("Result ", result)
-            mail_id = ''
-            mail_to = "samuel.alfius@gmail.com"
-            tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
-            if tmplt_id:
-                tmplt_id.write({'email_to':mail_to})
-                print ("Mail Belum ")
-                mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(result.id, force_send=True)
-                print ("Mail ", mail_id)
-                if not mail_id:
-                    raise Warning('Email Not Sent')
-            else:
-                raise Warning('Email Template Not Found')
+        company_id = vals.get('company_id', self.default_get(['company_id'])['company_id'])
+        if vals.get('name', 'New') == 'New':
+            vals['name'] = self.env['ir.sequence'].with_context(force_company=company_id).next_by_code('purchase.order') or '/'
+        res = super(PurchaseOrder, self.with_context(company_id=company_id)).create(vals)
+        print ("Result ", res)
 
-        print ("Ada Apa")
-        return True
+    # @api.multi
+    # def create(self, vals):
+    #     result = super().create(vals)
+    #     if result:
+    #         print ("Result ", result)
+    #         mail_id = ''
+    #         mail_to = "samuel.alfius@gmail.com"
+    #         tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
+    #         if tmplt_id:
+    #             tmplt_id.write({'email_to':mail_to})
+    #             print ("Mail Belum ")
+    #             mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(result.id, force_send=True)
+    #             print ("Mail ", mail_id)
+    #             if not mail_id:
+    #                 raise Warning('Email Not Sent')
+    #         else:
+    #             raise Warning('Email Template Not Found')
+
+    #     print ("Ada Apa")
+    #     return True
 
