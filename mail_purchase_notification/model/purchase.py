@@ -23,6 +23,7 @@ class PurchaseOrder(models.Model):
             vals['name'] = self.env['ir.sequence'].with_context(force_company=company_id).next_by_code('purchase.order') or '/'
         res = super(PurchaseOrder, self.with_context(company_id=company_id)).create(vals)
         print ("Result ", res)
+        return res
 
     # @api.multi
     # def create(self, vals):
