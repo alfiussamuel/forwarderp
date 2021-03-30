@@ -31,3 +31,5 @@ class PurchaseOrder(models.Model):
                     raise Warning('Email Not Sent')
             else:
                 raise Warning('Email Template Not Found')
+
+        return True

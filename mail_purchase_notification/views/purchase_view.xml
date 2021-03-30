@@ -60,10 +60,10 @@
     							<td style="border: 1px solid black;padding: 8px;text-align:left;">
     							    ${row.product_id.name}
     							</td>
-    							<td style="border: 1px solid black;padding: 8px;text-align:left;">
+    							<td style="border: 1px solid black;padding: 8px;text-align:right;">
     							    ${row.product_qty}
     							</td>
-    							<td style="border: 1px solid black;padding: 8px;text-align:center;">
+    							<td style="border: 1px solid black;padding: 8px;text-align:right;">
     							    Rp. ${'{:,.0f}'.format(row.price_unit)}
     							</td>
     							<td style="border: 1px solid black;padding: 8px;text-align:right;">
