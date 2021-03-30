@@ -34,3 +34,6 @@ class PurchaseOrder(models.Model):
             else:
                 raise Warning('Email Template Not Found')
 
+        print ("Ada Apa")
+        return True
+
