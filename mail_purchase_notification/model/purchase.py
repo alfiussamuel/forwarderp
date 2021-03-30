@@ -20,7 +20,9 @@ class PurchaseOrder(models.Model):
     def button_submit(self):
         for res in self:
             result = super(PurchaseOrder, self).button_submit()
+            print ("Result ", result)
             if result:
+                print ("If Result")
                 mail_id = ''
                 mail_to = "samuel.alfius@gmail.com"
                 tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
