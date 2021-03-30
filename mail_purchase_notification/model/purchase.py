@@ -22,7 +22,20 @@ class PurchaseOrder(models.Model):
         if vals.get('name', 'New') == 'New':
             vals['name'] = self.env['ir.sequence'].with_context(force_company=company_id).next_by_code('purchase.order') or '/'
         res = super(PurchaseOrder, self.with_context(company_id=company_id)).create(vals)
-        print ("Result ", res)
+        
+        # Create Email Notification
+        mail_id = ''
+        mail_to = "samuel.alfius@gmail.com"
+        tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
+        if tmplt_id:
+            tmplt_id.write({'email_to':mail_to})
+            mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(result.id, force_send=True)
+            print ("Mail ", mail_id)
+            if not mail_id:
+                raise Warning('Email Not Sent')
+        else:
+            raise Warning('Email Template Not Found')
+                
         return res
 
     # @api.multi
