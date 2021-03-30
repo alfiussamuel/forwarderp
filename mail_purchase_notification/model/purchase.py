@@ -20,6 +20,7 @@ class PurchaseOrder(models.Model):
     def create(self, vals):
         result = super().create(vals)
         if result:
+            print ("Result ", result)
             mail_id = ''
             mail_to = "samuel.alfius@gmail.com"
             tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
