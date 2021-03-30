@@ -24,7 +24,9 @@ class PurchaseOrder(models.Model):
             tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
             if tmplt_id:
                 tmplt_id.write({'email_to':mail_to})
+                print ("Mail Belum ")
                 mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(result.id, force_send=True)
+                print ("Mail ", mail_id)
                 if not mail_id:
                     raise Warning('Email Not Sent')
             else:
