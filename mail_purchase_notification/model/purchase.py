@@ -16,21 +16,19 @@ from collections import defaultdict
 class PurchaseOrder(models.Model):
     _inherit = "purchase.order"
 
-    @api.multi
-    def button_submit(self):
-        for res in self:
-            print ("Not Yet ")
-            result = super(PurchaseOrder, self).button_submit()
-            print ("Result ", result)
-            if result:
-                print ("If Result")
-                mail_id = ''
-                mail_to = "samuel.alfius@gmail.com"
-                tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
-                if tmplt_id:
-                    tmplt_id.write({'email_to':mail_to})
-                    mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(res.id, force_send=True)
-                    if not mail_id:
-                        raise Warning('Email Not Sent')
-                else:
-                    raise Warning('Email Template Not Found')
+    def create(self, vals):
+        print ("Not Yet ")
+        result = super(PurchaseOrder, self).create(vals)
+        print ("Result ", result)
+        if result:
+            print ("If Result")
+            mail_id = ''
+            mail_to = "samuel.alfius@gmail.com"
+            tmplt_id = self.env['mail.template'].search([("name", "=", "Purchase Order")])
+            if tmplt_id:
+                tmplt_id.write({'email_to':mail_to})
+                mail_id = self.env['mail.template'].browse(tmplt_id.id).send_mail(result.id, force_send=True)
+                if not mail_id:
+                    raise Warning('Email Not Sent')
+            else:
+                raise Warning('Email Template Not Found')
